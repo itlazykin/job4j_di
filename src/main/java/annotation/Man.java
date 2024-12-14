@@ -26,7 +26,31 @@ public class Man {
     public void setBird(Bird bird) {
         this.bird = bird;
     }
+/*
+    public void setDog(Dog dog) {
+        this.dog = dog;
+    }
 
+    public void setDog1(Dog dog1) {
+        this.dog1 = dog1;
+    }
+
+    public void setCat(Cat cat) {
+        this.cat = cat;
+    }
+
+    public void setPets(Set<Pet> pets) {
+        this.pets = pets;
+    }
+
+    public void setDogs(List<Pet<Dog>> dogs) {
+        this.dogs = dogs;
+    }
+
+    public void setMapDogs(Map<String, Dog> mapDogs) {
+        this.mapDogs = mapDogs;
+    }
+*/
     @Autowired
     private Set<Pet> pets;
 

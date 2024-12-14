@@ -7,6 +7,11 @@ public class Dog implements Pet<Dog> {
     public Dog(String name) {
         this.name = name;
     }
+/*
+    public void setName(String name) {
+        this.name = name;
+    }
+*/
     @Override
     public String print() {
         return "Dog name = %s".formatted(name);
