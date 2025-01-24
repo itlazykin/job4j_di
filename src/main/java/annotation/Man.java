@@ -26,31 +26,32 @@ public class Man {
     public void setBird(Bird bird) {
         this.bird = bird;
     }
-/*
-    public void setDog(Dog dog) {
-        this.dog = dog;
-    }
 
-    public void setDog1(Dog dog1) {
-        this.dog1 = dog1;
-    }
+    /*
+        public void setDog(Dog dog) {
+            this.dog = dog;
+        }
 
-    public void setCat(Cat cat) {
-        this.cat = cat;
-    }
+        public void setDog1(Dog dog1) {
+            this.dog1 = dog1;
+        }
 
-    public void setPets(Set<Pet> pets) {
-        this.pets = pets;
-    }
+        public void setCat(Cat cat) {
+            this.cat = cat;
+        }
 
-    public void setDogs(List<Pet<Dog>> dogs) {
-        this.dogs = dogs;
-    }
+        public void setPets(Set<Pet> pets) {
+            this.pets = pets;
+        }
 
-    public void setMapDogs(Map<String, Dog> mapDogs) {
-        this.mapDogs = mapDogs;
-    }
-*/
+        public void setDogs(List<Pet<Dog>> dogs) {
+            this.dogs = dogs;
+        }
+
+        public void setMapDogs(Map<String, Dog> mapDogs) {
+            this.mapDogs = mapDogs;
+        }
+    */
     @Autowired
     private Set<Pet> pets;
 
@@ -59,7 +60,6 @@ public class Man {
 
     @Autowired
     private Map<String, Dog> mapDogs;
-
 
     public void print() {
         System.out.printf("My Dog: %s%n", dog.print());
