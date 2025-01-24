@@ -1,7 +1,6 @@
 package ru.job4j.di;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.job4j.di.model.StartUI;
 
 public class ContextByJavaBasedConfig {
     public static void main(String[] args) {
