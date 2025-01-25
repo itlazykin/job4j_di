@@ -1,7 +1,5 @@
 # Job4j. Middle.
 
-![CI GitHubAction](https://github.com/itlazykin/job4j_di/actions/workflows/maven.yml/badge.svg)
-
 Проект содержит решения блока "Middle" курса Job4j. В этом проекте рассмотрены:
 
 В этом проекте рассмотрены:
